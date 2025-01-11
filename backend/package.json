@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Blockcheck blockchain",
+  "main": "server.mjs",
+  "scripts": {
+    "dev": "nodemon server.mjs",
+    "dev-node": "cross-env CREATING_DYNAMIC_PORT='active' nodemon server.mjs"
+  },
+  "author": "Mamed Khodjaev",
+  "license": "MIT",
+  "dependencies": {
+    "backend": "file:",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "elliptic": "^6.5.5",
+    "express": "^4.19.2",
+    "hex-to-binary": "^1.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "pubnub": "^8.2.3",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.3"
+  }
+}
